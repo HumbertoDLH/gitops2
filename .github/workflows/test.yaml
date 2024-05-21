@@ -4,6 +4,6 @@ on:
 
 jobs:
   run-reusable:
-    uses: HumbertoDLH/gitops/.github/workflows/ex4.yaml
+    uses: HumbertoDLH/gitops/.github/workflows/ex4.yaml@main
     with:
       node_version: '13'
