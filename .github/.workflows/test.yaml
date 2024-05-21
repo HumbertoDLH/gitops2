@@ -1,0 +1,9 @@
+name: reusable workflow user
+on: 
+  workflow_dispatch:
+
+jobs:
+  run-reusable:
+    uses: HumbertoDLH/gitops/.github/workflows/ex4.yaml
+    with:
+      node_version: '13'
